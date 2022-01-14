@@ -22,6 +22,7 @@ export function App() {
   }, [selectedGenreId]);
 
   function handleClickButton(id: number) {
+    debugger;
     setSelectedGenreId(id);
   }
 

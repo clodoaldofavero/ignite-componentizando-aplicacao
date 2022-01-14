@@ -34,7 +34,7 @@ export function SideBar({ selectedGenreId, handleClickButton } : SidebarProps) {
               key={String(genre.id)}
               title={genre.title}
               iconName={genre.name}
-              onClick={() => handleClickButton(genre.id)}
+              onClick={() => {debugger; handleClickButton(genre.id);}}
               selected={selectedGenreId === genre.id}
             />
           ))}
